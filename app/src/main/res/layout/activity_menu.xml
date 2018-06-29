@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/apt"
+            android:gravity="center"
+            android:text="Aptitude"
+            android:textAlignment="gravity"
+            android:id="@+id/aptitude"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold|italic"
+            android:background="@drawable/gd"
+            android:textAlignment="gravity"
+            android:id="@+id/GD"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:text="Group Discussion"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold|italic"
+            android:background="@drawable/interviw"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:id="@+id/interview"
+            android:textColor="#0000f1"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:text="Interview"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:background="@drawable/resume"
+            android:gravity="center"
+            android:id="@+id/resume"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>
